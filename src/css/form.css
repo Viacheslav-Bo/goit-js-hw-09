@@ -9,6 +9,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 500px;
+    margin: 0 auto;
+
 }
 
 form label {
@@ -47,4 +50,14 @@ form button {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
+}
+
+input[type="color"] {
+    width: 50%;
+    height: 40px;
+    padding: 0;
+    border: 2px solid #fbfcfd;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
 }
